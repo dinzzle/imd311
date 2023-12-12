@@ -1,0 +1,54 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.topnav a {
+    float: left;
+    color: #FAE5D3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ECFFDC;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #ECFFDC;
+    color: white;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 200px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
